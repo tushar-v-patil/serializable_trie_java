@@ -201,7 +201,7 @@ public class TrieDS {
 		boolean isTerminating;
 		
 		//number of words have the prefix that is represented by this node.
-	    int wordsWithPrefix;
+	    	int wordsWithPrefix;
 	    
 		//represent all child nodes of this node.
 		Map<Character,TrieNode> children;
